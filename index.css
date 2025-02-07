@@ -21,7 +21,8 @@ body::-webkit-scrollbar {
 
 body {
     -ms-overflow-style: none;
-    scrollbar-width: none;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
 }
 
 .site-wrapper {
@@ -299,8 +300,6 @@ i[class*="van-type-"] {
     text-decoration: none;
 }
 
-.van-detail-container .back-button:visited {
-}
 
 .van-detail-container .back-button span {
     text-decoration: underline;
